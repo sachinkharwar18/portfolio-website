@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: #020617;
+  color: #00ffcc;
+  font-family: Arial;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #00ffcc;
+  color: black;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
