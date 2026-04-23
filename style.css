@@ -111,3 +111,5 @@ p {
   max-width: 900px;
   margin: auto;
 }
+.card h3 { margin-bottom: 8px; }
+.card p { font-size: 14px; }
