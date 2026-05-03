@@ -37,7 +37,7 @@ function animate() {
     // connect to mouse
     let dist = Math.hypot(p.x - mouse.x, p.y - mouse.y);
 
-    if (dist < 20) {
+    if (dist < 35) {
       ctx.beginPath();
       ctx.moveTo(p.x, p.y);
       ctx.lineTo(mouse.x, mouse.y);
